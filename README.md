@@ -82,7 +82,10 @@ Example: `docker run --rm -v $(pwd):/converted/ arachnysdocker/athenapdf athenap
 
 The default authentication key is `arachnys-weaver`. This can be changed through the `WEAVER_AUTH_KEY` environment variable.
 
-The microservice can be deployed scalably to [ECS][ecs] if you want to build your own conversion farm.
+## Deploying
+
+1. The microservice can be deployed scalably to [ECS][ecs] if you want to build your own conversion farm.
+2. Google App Engine Flexible Environment is another deployment option. [See Quickstart Guide here](gae-flex-quickstart).
 
 ## License
 
@@ -117,3 +120,4 @@ An [Arachnys][arachnys] Christmas project.
 [headless]: http://internetofthingsagenda.techtarget.com/definition/headless-system
 [arachnys]: https://www.arachnys.com/?utm_campaign=athena&utm_medium=external%20website&utm_source=github&utm_content=readme
 [ecs]: https://aws.amazon.com/ecs/details/
+[gae-flex-quickstart]: https://github.com/troyharvey/gae-flexible-athenapdf
